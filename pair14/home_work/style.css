@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Arial, sans-serif;
+    background: #f1edf7;
+    color: #332d42;
+}
+.profile-card{
+    width: min(450px, 100%);
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgb(214, 205, 232);
+}
+.tag{
+    color: #6d4bc3;
+}
+label{
+    display: block;
+    margin: 15px 0;
+}
+input, select{
+    border: 1px solid #b9afcc;
+    padding: 5px 10px;
+}
+button{
+    margin: 15px 0;
+    border: none;
+    background: #6d4bc3;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.secondary{
+    background: #e9e2f5;
+    color: #49376d;
+}
+.hidden{
+    display: none;
+}
+.success{
+    color: #147d43;
+    font-weight: bold;
+}
+.dark{
+    background: #2b263d;
+    color: #f7f3ff;
+}
+.dark .secondary{
+    background: #4b3d68;
+    color: #fff;
+}

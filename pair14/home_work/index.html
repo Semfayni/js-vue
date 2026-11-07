@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Налаштування профілю</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="profile-card" id="card">
+    <p class="tag">Особистий кабінет</p>
+    <h1>Налаштування профілю</h1>
+    <p id="welcome">Вітаємо, гостю!</p>
+
+    <label for="userName">Ваше ім’я</label>
+    <input id="userName" type="text" placeholder="Введіть ім’я">
+    <button id="confirmBtn">Підтвердити</button>
+    <p id="status">Ім’я ще не підтверджено</p>
+
+    <label for="theme">Кольорова тема</label>
+    <select id="theme">
+        <option value="light">Світла</option>
+        <option value="dark">Темна</option>
+    </select>
+
+    <button id="detailBtn" class="secondary">Показати інформацію</button>
+    <p id="details" class="hidden">Тут можна змінити ім’я та вибрати кольорову тему профілю.</p>
+</main>
+<script src="script.js" defer></script>
+</body>
+</html>
